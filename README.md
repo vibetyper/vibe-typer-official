@@ -27,13 +27,26 @@
   <a href="https://x.com/vibetyper"><img alt="X" src="https://img.shields.io/badge/X-%40vibetyper-000?style=flat-square&logo=x"></a>
 </p>
 
-<p align="center">
-  <img src="https://vibetyper.com/images/app/history-diff-light-1120.webp" alt="Vibe Typer history showing the Magic Formatter diff between what was said and what was typed" width="800">
-</p>
+<table align="center">
+  <tr>
+    <th>Light</th>
+    <th>Dark</th>
+  </tr>
+  <tr>
+    <td><img src="https://vibetyper.com/images/app/activity-pro-light-1120.webp" alt="Vibe Typer activity dashboard in light mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/activity-pro-dark-1120.webp" alt="Vibe Typer activity dashboard in dark mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
+  </tr>
+  <tr>
+    <td><img src="https://vibetyper.com/images/app/history-diff-light-1120.webp" alt="Vibe Typer history in light mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/history-diff-dark-1120.webp" alt="Vibe Typer history in dark mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Top row: the activity dashboard. Bottom row: history with the Magic Formatter diff of what changed.</sub></p>
 
 ## What it is
 
-Vibe Typer is a system-wide AI dictation app, built in Australia. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and let go. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
+Vibe Typer is a system-wide AI dictation app. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and let go. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
 
 It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictation keyboard on iPhone. One account covers all of them.
 
