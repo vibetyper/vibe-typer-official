@@ -6,7 +6,7 @@
 
 <p align="center">
   AI voice typing for Linux, Windows, macOS and iPhone.<br>
-  Hold a hotkey, talk, and clean text lands at your cursor in any app.
+  Press a hotkey, talk, and clean text lands at your cursor in any app.
 </p>
 
 <p align="center">
@@ -46,14 +46,14 @@
 
 ## What it is
 
-Vibe Typer is a system-wide AI dictation app. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and let go. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
+Vibe Typer is an AI dictation app built in Australia. It works on Linux, Windows, Mac and iPhone, types clean text at the cursor in any app, transcribes 99 languages, and stores no audio or transcripts. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and press it again. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
 
 It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictation keyboard on iPhone. One account covers all of them.
 
 ## Why people switch to it
 
 - **It just works.** Install, set a hotkey, talk. No models to download, no dependencies, no per-app setup.
-- **Fast on any machine.** Transcription runs on our servers, on large speech models and inference hardware built for speed, not on your CPU. Let go of the hotkey and the text lands before your hand is back on the keyboard, on a five-year-old laptop as much as on a workstation. The models that transcribe best are the ones consumer hardware runs slowest, which is why local tools make you choose between accuracy and waiting.
+- **Fast on any machine.** Transcription runs on our servers, on large speech models and inference hardware built for speed, not on your CPU. Press the hotkey again and the text lands before your hand is back on the keyboard, on a five-year-old laptop as much as on a workstation. The models that transcribe best are the ones consumer hardware runs slowest, which is why local tools make you choose between accuracy and waiting.
 - **Text you can send without editing.** Magic Formatter cleans fillers, self-corrections, grammar and punctuation, and can fix mistranscriptions, then shows you a word-level diff of what it changed. Custom instructions and three tone settings make it write the way you do.
 - **Configurable where it matters.** A dictionary with Smart, Whole word and Exact phrase matching that offers to learn from your corrections. Per-app paste rules. A second hotkey, mouse-button bindings, and hooks that run shell commands when recording starts and stops.
 - **Linux is a first-class citizen.** One AppImage for Ubuntu, Fedora, Debian, Arch and Mint. Native text insertion on both Wayland and X11, no xdotool, no ydotool. Wispr Flow and Superwhisper do not ship a Linux build.
