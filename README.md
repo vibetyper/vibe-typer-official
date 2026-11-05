@@ -33,12 +33,12 @@
     <th>Dark</th>
   </tr>
   <tr>
-    <td><img src="https://vibetyper.com/images/app/activity-pro-light-1120.webp" alt="Vibe Typer activity dashboard in light mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
-    <td><img src="https://vibetyper.com/images/app/activity-pro-dark-1120.webp" alt="Vibe Typer activity dashboard in dark mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/activity-pro-light-1120.webp?v=b9ec3301" alt="Vibe Typer activity dashboard in light mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/activity-pro-dark-1120.webp?v=b9ec3301" alt="Vibe Typer activity dashboard in dark mode: words dictated, speaking pace, time saved and a streak calendar" width="420"></td>
   </tr>
   <tr>
-    <td><img src="https://vibetyper.com/images/app/history-diff-light-1120.webp" alt="Vibe Typer history in light mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
-    <td><img src="https://vibetyper.com/images/app/history-diff-dark-1120.webp" alt="Vibe Typer history in dark mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/history-diff-light-1120.webp?v=b9ec3301" alt="Vibe Typer history in light mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
+    <td><img src="https://vibetyper.com/images/app/history-diff-dark-1120.webp?v=b9ec3301" alt="Vibe Typer history in dark mode showing the Magic Formatter diff between what was said and what was typed" width="420"></td>
   </tr>
 </table>
 
@@ -54,7 +54,7 @@ It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictati
 
 - **It just works.** Install, set a hotkey, talk. No models to download, no dependencies, no per-app setup.
 - **Fast on any machine.** Transcription runs on our servers, on large speech models and inference hardware built for speed, not on your CPU. Press the hotkey again and the text lands before your hand is back on the keyboard, on a five-year-old laptop as much as on a workstation. The models that transcribe best are the ones consumer hardware runs slowest, which is why local tools make you choose between accuracy and waiting.
-- **Text you can send without editing.** Magic Formatter cleans fillers, self-corrections, grammar and punctuation, and can fix mistranscriptions, then shows you a word-level diff of what it changed. Custom instructions and three tone settings make it write the way you do.
+- **Text you can send without editing.** Magic Formatter, our own model built just for cleaning up dictation, drops fillers, false starts and self-corrections and sets punctuation, capitals, paragraphs and lists, without adding a word or rewording what you said, then shows you a word-level diff of what it changed.
 - **Configurable where it matters.** A dictionary with Smart, Whole word and Exact phrase matching that offers to learn from your corrections. Per-app paste rules. A second hotkey, mouse-button bindings, and hooks that run shell commands when recording starts and stops.
 - **Linux is a first-class citizen.** One AppImage for Ubuntu, Fedora, Debian, Arch and Mint. Native text insertion on both Wayland and X11, no xdotool, no ydotool. Wispr Flow and Superwhisper do not ship a Linux build.
 - **Nothing kept.** Audio is processed in memory on our servers and discarded. No recordings, no transcripts, no training on your voice. History stays on your device.
@@ -86,7 +86,7 @@ Run the installer or open the disk image, sign in, grant the permissions it asks
 
 ### iPhone
 
-Install from the App Store, enable the "Vibe Typer Dictation" keyboard in iOS Settings, and switch to it in any app. Magic Formatter, custom instructions, tone and your dictionary carry over from desktop.
+Install from the App Store, enable the "Vibe Typer Dictation" keyboard in iOS Settings, and switch to it in any app. Magic Formatter, tone and your dictionary carry over from desktop.
 
 ## Features
 
@@ -101,8 +101,8 @@ Every feature is available on the free plan. Pro removes the monthly caps.
 
 **Magic Formatter**
 
-- On by default. Cleans fillers, self-corrections, grammar and punctuation, and can fix mistranscriptions. Never translates, never summarises, never changes numbers, names, prices or technical terms.
-- Custom instructions: style preferences applied to every dictation, such as "always use Australian spelling".
+- On by default, in two versions under Settings > Formatting > Version. Standard, our own model and the default, drops fillers, false starts and self-corrections and sets punctuation, capitals, paragraphs and lists. It never adds a word or rewords you. Neither version translates, summarises or changes numbers, names, prices or technical terms.
+- Classic, our previous Magic Formatter, follows custom instructions: style preferences applied to your dictation, such as "always use Australian spelling".
 - Tone: Normal, Casual, Very Casual.
 - A word-level diff of every change, so you can see what it did and tune it.
 
@@ -143,7 +143,7 @@ Full policy: [vibetyper.com/privacy](https://vibetyper.com/privacy). Detail: [lo
 |---|---|---|
 | Transcribed words | 2,000 a month | Unlimited |
 | AI operations (Rewrite and Reply) | 20 a month | Unlimited |
-| Magic Formatter, custom instructions, dictionary, every platform | Included | Included |
+| Magic Formatter, dictionary, every platform | Included | Included |
 | Price | $0, no card | $8 a month billed annually, or $10 month to month |
 
 Business seats with central billing are available for teams. Details at [vibetyper.com/pricing](https://vibetyper.com/pricing).
