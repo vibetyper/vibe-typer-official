@@ -5,7 +5,7 @@
 <h1 align="center">Vibe Typer</h1>
 
 <p align="center">
-  AI voice typing for Linux, Windows, macOS and iPhone.<br>
+  AI voice typing for Linux, Windows, macOS, iPhone and Android.<br>
   Press a hotkey, talk, and clean text lands at your cursor in any app.
 </p>
 
@@ -20,9 +20,10 @@
 </p>
 
 <p align="center">
-  <a href="https://vibetyper.com/downloads"><img alt="Linux, Windows, macOS and iOS" src="https://img.shields.io/badge/platforms-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20iOS-4c1?style=flat-square"></a>
+  <a href="https://vibetyper.com/downloads"><img alt="Linux, Windows, macOS, iOS and Android" src="https://img.shields.io/badge/platforms-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20iOS%20%7C%20Android-4c1?style=flat-square"></a>
   <a href="https://vibetyper.com/pricing"><img alt="Free plan" src="https://img.shields.io/badge/free%20plan-2%2C000%20words%20a%20month-blue?style=flat-square"></a>
   <a href="https://apps.apple.com/app/vibe-typer/id6787101284"><img alt="App Store" src="https://img.shields.io/badge/App%20Store-iPhone-black?style=flat-square&logo=apple"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.vibetyper.android"><img alt="Google Play" src="https://img.shields.io/badge/Google%20Play-Android%20beta-black?style=flat-square&logo=googleplay"></a>
   <a href="https://discord.com/invite/s43JqaGxsZ"><img alt="Discord" src="https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white"></a>
   <a href="https://x.com/vibetyper"><img alt="X" src="https://img.shields.io/badge/X-%40vibetyper-000?style=flat-square&logo=x"></a>
 </p>
@@ -46,9 +47,9 @@
 
 ## What it is
 
-Vibe Typer is an AI dictation app built in Australia. It works on Linux, Windows, Mac and iPhone, types clean text at the cursor in any app, transcribes 99 languages, and stores no audio or transcripts. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and press it again. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
+Vibe Typer is an AI dictation app built in Australia. It works on Linux, Windows, Mac, iPhone and Android, types clean text at the cursor in any app, transcribes 99 languages, and stores no audio or transcripts. Press a hotkey in whatever app is in front, Slack, a terminal, VS Code, Gmail, Word, a browser form, say what you mean, and press it again. Magic Formatter strips the ums, false starts and self-corrections on the way through, and the finished text is typed at your cursor. No window to copy out of, no plugin per app, nothing to learn beyond one hotkey.
 
-It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictation keyboard on iPhone. One account covers all of them.
+It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictation keyboard on iPhone and Android. One account covers all of them.
 
 ## Why people switch to it
 
@@ -57,7 +58,7 @@ It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictati
 - **Text you can send without editing.** Magic Formatter, our own model built just for cleaning up dictation, drops fillers, false starts and self-corrections and sets punctuation, capitals, paragraphs and lists, without adding a word or rewording what you said, then shows you a word-level diff of what it changed.
 - **Configurable where it matters.** A dictionary with Smart, Whole word and Exact phrase matching that offers to learn from your corrections. Per-app paste rules. A second hotkey, mouse-button bindings, and hooks that run shell commands when recording starts and stops.
 - **Linux is a first-class citizen.** One AppImage for Ubuntu, Fedora, Debian, Arch and Mint. Native text insertion on both Wayland and X11, no xdotool, no ydotool. Wispr Flow and Superwhisper do not ship a Linux build.
-- **Nothing kept.** Audio is processed in memory on our servers and discarded. No recordings, no transcripts, no training on your voice. History stays on your device.
+- **No recordings kept.** Audio is processed in memory on our servers and discarded. No recordings, no transcripts, no training on your voice. History stays on your device.
 
 ## Install
 
@@ -67,8 +68,7 @@ It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictati
 | Windows | Windows 10 or later, 64-bit | [vibe-typer-Setup.exe](https://cdn.vibetyper.com/releases/windows/vibe-typer-Setup.exe) |
 | macOS | macOS 12 Monterey or later, Apple Silicon | [VibeTyper-arm64.dmg](https://cdn.vibetyper.com/releases/mac/VibeTyper-arm64.dmg) |
 | iPhone | iOS 17 or later | [App Store](https://apps.apple.com/app/vibe-typer/id6787101284) |
-
-Android is in development.
+| Android | Android 9 or later, open beta | [Google Play](https://play.google.com/store/apps/details?id=com.vibetyper.android) |
 
 ### Linux
 
@@ -87,6 +87,10 @@ Run the installer or open the disk image, sign in, grant the permissions it asks
 ### iPhone
 
 Install from the App Store, enable the "Vibe Typer Dictation" keyboard in iOS Settings, and switch to it in any app. Magic Formatter, tone and your dictionary carry over from desktop.
+
+### Android
+
+Install the open beta from [Google Play](https://play.google.com/store/apps/details?id=com.vibetyper.android), turn on the Vibe Typer keyboard, and switch to it in any app. Sign in with the same account and your language, tone and dictionary carry over.
 
 ## Features
 
@@ -113,7 +117,7 @@ Every feature is available on the free plan. Pro removes the monthly caps.
 
 **Dictionary and learning**
 
-- Smart, Whole word or Exact phrase matching, no entry cap, synced to every device including the iPhone keyboard.
+- Smart, Whole word or Exact phrase matching, no entry cap, synced to every device including the iPhone and Android keyboards.
 - Learn from my corrections: when you fix a word it got wrong, it offers to add the fix. Runs locally, and nothing is added until you accept it.
 
 **Control and automation**
@@ -158,7 +162,7 @@ Checked 18 September 2026 against each vendor's site.
 | Windows | Yes | Yes | Yes |
 | macOS | Yes | Yes | Yes |
 | iPhone | Yes | Yes | Yes |
-| Android | In development | Yes | Yes |
+| Android | Yes, in beta | Yes | Yes |
 | Free plan | 2,000 words a month | 2,000 words a week on desktop | 3,000 words of Pro features to trial |
 | Pro | $8 a month annual, $10 monthly | $12 a month annual, $15 monthly | From $8.49 a month |
 
