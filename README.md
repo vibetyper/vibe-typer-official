@@ -5,7 +5,7 @@
 <h1 align="center">Vibe Typer</h1>
 
 <p align="center">
-  Voice typing, everywhere. AI voice typing for Mac, Windows, Linux, iPhone and Android.<br>
+  AI voice typing for Linux, Windows, macOS, iPhone and Android.<br>
   Press a hotkey, talk, and clean text lands at your cursor in any app.
 </p>
 
