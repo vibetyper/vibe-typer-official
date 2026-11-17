@@ -59,7 +59,7 @@ It runs natively on Linux (Wayland and X11), Windows and macOS, and as a dictati
 - **Fast on any machine.** Transcription runs on our servers, on large speech models and inference hardware built for speed, not on your CPU. Press the hotkey again and the text lands before your hand is back on the keyboard, on a five-year-old laptop as much as on a workstation. The models that transcribe best are the ones consumer hardware runs slowest, which is why local tools make you choose between accuracy and waiting.
 - **Text you can send without editing.** Magic Formatter, our own model built just for cleaning up dictation, drops fillers, false starts and self-corrections and sets punctuation, capitals, paragraphs and lists, without adding a word or rewording what you said, then shows you a word-level diff of what it changed.
 - **Configurable where it matters.** A dictionary with Smart, Whole word and Exact phrase matching that offers to learn from your corrections. Per-app paste rules. A second hotkey, mouse-button bindings, and hooks that run shell commands when recording starts and stops.
-- **Linux is a first-class citizen.** One AppImage for Ubuntu, Fedora, Debian, Arch and Mint. Native text insertion on both Wayland and X11, no xdotool, no ydotool. Wispr Flow and Superwhisper do not ship a Linux build.
+- **Linux is a first-class citizen.** One AppImage for Ubuntu, Fedora, Debian, Arch and Mint. Native text insertion on both Wayland and X11, no xdotool, no ydotool. Wispr Flow has no official Linux app, and Superwhisper's Linux preview needs Wayland with Hyprland, KDE Plasma or GNOME.
 - **No recordings kept.** Audio is processed in memory on our servers and discarded. No recordings, no transcripts, no training on your voice. History stays on your device.
 
 ## Install
@@ -80,7 +80,7 @@ chmod +x VibeTyper.AppImage
 ./VibeTyper.AppImage
 ```
 
-Sign in with the one-time code sent to your email (no passwords), grant microphone access, keep the default hotkey (Ctrl + Space) or set your own, and dictate. The same AppImage runs on GNOME, KDE, COSMIC, Hyprland and Sway. On Wayland, run the in-app Wayland setup once so hotkeys and text insertion work. Sign-in needs a Secret Service keyring; see [keyring troubleshooting](https://vibetyper.com/docs/linux-keyring-troubleshooting) if your desktop does not ship one. Full notes: [voice typing on Linux](https://vibetyper.com/voice-typing-linux).
+Sign in with the one-time code sent to your email (no passwords), grant microphone access, keep the default hotkey (Ctrl + Space) or set your own, and dictate. The same AppImage runs on GNOME, KDE, COSMIC, Hyprland and Sway. What your desktop asks the first time is under [Linux voice typing on Wayland and X11](#linux-voice-typing-on-wayland-and-x11). Sign-in needs a Secret Service keyring; see [keyring troubleshooting](https://vibetyper.com/docs/linux-keyring-troubleshooting) if your desktop does not ship one. Full notes: [voice typing on Linux](https://vibetyper.com/voice-typing-linux).
 
 ### Windows and macOS
 
@@ -93,6 +93,21 @@ Install from the App Store, enable the "Vibe Typer Dictation" keyboard in iOS Se
 ### Android
 
 Install the open beta from [Google Play](https://play.google.com/store/apps/details?id=com.vibetyper.android), turn on the Vibe Typer keyboard, and switch to it in any app. Sign in with the same account and your language, tone and dictionary carry over.
+
+## Linux voice typing on Wayland and X11
+
+Vibe Typer is a Linux dictation app that types into any window on Wayland and X11, from one AppImage. Here's what each desktop asks of you the first time.
+
+- **GNOME 48 or later.** Nothing to install. GNOME asks you once to approve Vibe Typer's hotkey and once to let it type, with no password. On older GNOME, Vibe Typer's Wayland setup runs once after you sign in.
+- **KDE Plasma 6.** Two approvals in KDE's own dialogs, no password, and Vibe Typer is ready. If the recording indicator blurs your screen, [turn off KDE's Blur effect](https://vibetyper.com/docs/wayland-blur).
+- **Hyprland and Sway.** Vibe Typer's Wayland setup runs once after you sign in, checks what your system needs and asks before it changes anything. Your hotkey works as soon as it's done.
+- **X11.** Vibe Typer types and takes its hotkey on an X11 session with no Wayland setup.
+
+The full walkthrough, desktop by desktop: [voice typing on Wayland](https://vibetyper.com/blog/voice-typing-wayland-linux) · [voice typing on Linux](https://vibetyper.com/voice-typing-linux)
+
+## Wispr Flow on Linux
+
+Wispr Flow has no official Linux app. Its pricing page, checked 17 November 2026, lists Mac, Windows, iOS and Android. Vibe Typer runs natively on Linux, on Wayland and X11, and the same account works on Mac, Windows, iPhone and Android. Guide: [Wispr Flow on Linux](https://vibetyper.com/blog/wisprflow-alternative-linux-guide)
 
 ## Features
 
@@ -156,17 +171,15 @@ Business seats with central billing are available for teams. Details at [vibetyp
 
 ## Compared with Wispr Flow and Superwhisper
 
-Checked 18 September 2026 against each vendor's site.
+Checked 17 November 2026 against each vendor's site.
 
 | | Vibe Typer | Wispr Flow | Superwhisper |
 |---|---|---|---|
-| Linux | Yes, Wayland and X11 | No | No |
+| Linux | Yes, Wayland and X11 | No official app | Preview, Wayland only (Hyprland, KDE Plasma or GNOME) |
 | Windows | Yes | Yes | Yes |
 | macOS | Yes | Yes | Yes |
 | iPhone | Yes | Yes | Yes |
-| Android | Yes, in beta | Yes | Yes |
-| Free plan | 2,000 words a month | 2,000 words a week on desktop | 3,000 words of Pro features to trial |
-| Pro | $8 a month annual, $10 monthly | $12 a month annual, $15 monthly | From $8.49 a month |
+| Android | Yes | Yes | Yes |
 
 Guides: [Wispr Flow on Linux](https://vibetyper.com/blog/wisprflow-alternative-linux-guide) · [Superwhisper on Linux](https://vibetyper.com/blog/superwhisper-alternative-linux-guide) · [Wispr Flow vs Vibe Typer](https://vibetyper.com/blog/wispr-flow-vs-vibe-typer) · [Every dictation tool that runs on Linux](https://vibetyper.com/blog/best-ai-voice-typing-apps-linux)
 
